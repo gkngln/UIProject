@@ -1,0 +1,1518 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2561819000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Images Control",
+        "description": "",
+        "id": "images-test;images-control",
+        "after": [
+          {
+            "result": {
+              "duration": 763050200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6762127200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to webpage",
+            "match": {
+              "location": "BaseSteps.iNavigateToWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20571600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see url include \u0027https://www.trendyol.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151762800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I closed \u0027AddPopupCloseBtn\u0027 popup form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPopupCloseBtn",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.iClosedPopupForm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109334021700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "image link control",
+            "match": {
+              "location": "HomeSteps.imageLinkControl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Images Test",
+    "description": "",
+    "id": "images-test",
+    "keyword": "Feature",
+    "uri": "images.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@images"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1521739600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Success Login Control",
+        "description": "",
+        "id": "login-test;success-login-control",
+        "after": [
+          {
+            "result": {
+              "duration": 755201500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6679975000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to webpage",
+            "match": {
+              "location": "BaseSteps.iNavigateToWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23709800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see url include \u0027https://www.trendyol.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209205000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I closed \u0027AddPopupCloseBtn\u0027 popup form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPopupCloseBtn",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.iClosedPopupForm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5417836200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click a \u0027firsLoginBtn\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firsLoginBtn",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14366800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see url include \u0027/giris?\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/giris?",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1726200800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill \u0027txtMail\u0027 by \u0027id\u0027 textbox as \u0027testtrendyol@outlook.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtMail",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 21
+                },
+                {
+                  "val": "testtrendyol@outlook.com",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1602355900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill \u0027txtPassword\u0027 by \u0027id\u0027 textbox as \u0027Vardar!123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtPassword",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 25
+                },
+                {
+                  "val": "Vardar!123",
+                  "offset": 41
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1617286000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click a \u0027btnLogin\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btnLogin",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5026233200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027myAccountInfo\u0027 by \u0027className\u0027 text is \u0027Hesabım\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myAccountInfo",
+                  "offset": 14
+                },
+                {
+                  "val": "className",
+                  "offset": 33
+                },
+                {
+                  "val": "Hesabım",
+                  "offset": 53
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeTextIs(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129621500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see url include \u0027/butik/liste\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/butik/liste",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1693572300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initDriver()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login With Invalid User Control",
+        "description": "",
+        "id": "login-test;login-with-invalid-user-control",
+        "after": [
+          {
+            "result": {
+              "duration": 700463000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6432935400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigate to webpage",
+            "match": {
+              "location": "BaseSteps.iNavigateToWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13738600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see url include \u0027https://www.trendyol.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154008800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I closed \u0027AddPopupCloseBtn\u0027 popup form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPopupCloseBtn",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.iClosedPopupForm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5355130900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \u0027firsLoginBtn\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firsLoginBtn",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14801100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see url include \u0027/giris?\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/giris?",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1697280400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill \u0027txtMail\u0027 by \u0027id\u0027 textbox as \u0027testtrendyol@outlook.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtMail",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 21
+                },
+                {
+                  "val": "testtrendyol@outlook.com",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1615293600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill \u0027txtPassword\u0027 by \u0027id\u0027 textbox as \u0027Vardar!1234\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtPassword",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 25
+                },
+                {
+                  "val": "Vardar!1234",
+                  "offset": 41
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1614543100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click a \u0027btnLogin\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btnLogin",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1543171100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see \u0027errorMessage\u0027 by \u0027xpath\u0027 text is \u0027E-posta adresiniz ve/veya şifreniz hatalı.\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "errorMessage",
+                  "offset": 14
+                },
+                {
+                  "val": "xpath",
+                  "offset": 32
+                },
+                {
+                  "val": "E-posta adresiniz ve/veya şifreniz hatalı.",
+                  "offset": 48
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeTextIs(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6732778900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to webpage",
+            "match": {
+              "location": "BaseSteps.iNavigateToWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25268900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see url include \u0027https://www.trendyol.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201403600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I closed \u0027AddPopupCloseBtn\u0027 popup form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPopupCloseBtn",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.iClosedPopupForm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5995266500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click a \u0027firsLoginBtn\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firsLoginBtn",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19728400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see url include \u0027/giris?\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/giris?",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1717822700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill \u0027txtMail\u0027 by \u0027id\u0027 textbox as \u0027testtrendyol@outlook.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtMail",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 21
+                },
+                {
+                  "val": "testtrendyol@outlook.com",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1666078100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill \u0027txtPassword\u0027 by \u0027id\u0027 textbox as \u0027Vardar!123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtPassword",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 25
+                },
+                {
+                  "val": "Vardar!123",
+                  "offset": 41
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1590450500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click a \u0027btnLogin\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btnLogin",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5707142300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027myAccountInfo\u0027 by \u0027className\u0027 text is \u0027Hesabım\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myAccountInfo",
+                  "offset": 14
+                },
+                {
+                  "val": "className",
+                  "offset": 33
+                },
+                {
+                  "val": "Hesabım",
+                  "offset": 53
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeTextIs(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1489916400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initDriver()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search GamingPC And Add To Chart Successfully",
+        "description": "",
+        "id": "search-product-and-add-to-chart-test;search-gamingpc-and-add-to-chart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 791416200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699420000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I fill \u0027SearchTextArea\u0027 by \u0027className\u0027 textbox as \u0027Oyuncu Bilgisayarı\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchTextArea",
+                  "offset": 8
+                },
+                {
+                  "val": "className",
+                  "offset": 28
+                },
+                {
+                  "val": "Oyuncu Bilgisayarı",
+                  "offset": 51
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7180013700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click a \u0027SearchIcon\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchIcon",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 27
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179756500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see url include \u0027sr?q\u003dOyuncu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sr?q\u003dOyuncu",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1981463800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I fill \u0027BandTypeSearchTextArea\u0027 by \u0027xpath\u0027 textbox as \u0027Monster\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BandTypeSearchTextArea",
+                  "offset": 8
+                },
+                {
+                  "val": "xpath",
+                  "offset": 36
+                },
+                {
+                  "val": "Monster",
+                  "offset": 55
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1719673900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \u0027BandTypeCheckBox\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BandTypeCheckBox",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 33
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1629535500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click a \u0027PriceDropDown\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PriceDropDown",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 30
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1666648700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I fill \u0027PriceMinTextSearchArea\u0027 by \u0027xpath\u0027 textbox as \u00273000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PriceMinTextSearchArea",
+                  "offset": 8
+                },
+                {
+                  "val": "xpath",
+                  "offset": 36
+                },
+                {
+                  "val": "3000",
+                  "offset": 55
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1607595200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I fill \u0027PriceMaxTextSearchArea\u0027 by \u0027xpath\u0027 textbox as \u002710000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PriceMaxTextSearchArea",
+                  "offset": 8
+                },
+                {
+                  "val": "xpath",
+                  "offset": 36
+                },
+                {
+                  "val": "10000",
+                  "offset": 55
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1656326100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click a \u0027PriceFilterSearchIcon\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PriceFilterSearchIcon",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 38
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1841037100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click a \u0027SelectProductItem\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SelectProductItem",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 34
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16185000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Switch to new tab",
+            "match": {
+              "location": "BaseSteps.switchToNewTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8425319500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click a \u0027ProductAddToBasket\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ProductAddToBasket",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 35
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6763596000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to webpage",
+            "match": {
+              "location": "BaseSteps.iNavigateToWebpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13728900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should see url include \u0027https://www.trendyol.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.trendyol.com/",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 176388400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I closed \u0027AddPopupCloseBtn\u0027 popup form",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPopupCloseBtn",
+                  "offset": 10
+                }
+              ],
+              "location": "BaseSteps.iClosedPopupForm(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5638660600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click a \u0027firsLoginBtn\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firsLoginBtn",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26705100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see url include \u0027/giris?\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/giris?",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1711338200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill \u0027txtMail\u0027 by \u0027id\u0027 textbox as \u0027testtrendyol@outlook.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtMail",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 21
+                },
+                {
+                  "val": "testtrendyol@outlook.com",
+                  "offset": 37
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1659984500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill \u0027txtPassword\u0027 by \u0027id\u0027 textbox as \u0027Vardar!123\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "txtPassword",
+                  "offset": 8
+                },
+                {
+                  "val": "id",
+                  "offset": 25
+                },
+                {
+                  "val": "Vardar!123",
+                  "offset": 41
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594670100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click a \u0027btnLogin\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "btnLogin",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4866252700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027myAccountInfo\u0027 by \u0027className\u0027 text is \u0027Hesabım\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myAccountInfo",
+                  "offset": 14
+                },
+                {
+                  "val": "className",
+                  "offset": 33
+                },
+                {
+                  "val": "Hesabım",
+                  "offset": 53
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeTextIs(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1675402700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initDriver()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Search shirt And Add To Favorite",
+        "description": "",
+        "id": "search-product-and-add-to-chart-test;search-shirt-and-add-to-favorite",
+        "after": [
+          {
+            "result": {
+              "duration": 738189700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1651134900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I fill \u0027SearchTextArea\u0027 by \u0027className\u0027 textbox as \u0027Gömlek\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchTextArea",
+                  "offset": 8
+                },
+                {
+                  "val": "className",
+                  "offset": 28
+                },
+                {
+                  "val": "Gömlek",
+                  "offset": 51
+                }
+              ],
+              "location": "BaseSteps.iFillTextboxAs(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7284000800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click a \u0027SearchIcon\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SearchIcon",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 27
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513279500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see url include \u0027sr?q\u003dG\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sr?q\u003dG",
+                  "offset": 26
+                }
+              ],
+              "location": "BaseSteps.iShouldSeeUrlInclude(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4002849000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Wait \u00274000\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4000",
+                  "offset": 6
+                }
+              ],
+              "location": "BaseSteps.waitSeconds(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1614675100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click a \u0027Blank\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blank",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1628527900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click a \u0027ProductAddFavorite\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ProductAddFavorite",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 35
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5214387600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click a \u0027GoToFavorite\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GoToFavorite",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 29
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1593670100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click a \u0027AddToBasketFromFavoriteButton\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddToBasketFromFavoriteButton",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 46
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594286500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click a \u0027RemoveFromFavoriteButton\u0027 by \u0027xpath\u0027 web element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RemoveFromFavoriteButton",
+                  "offset": 11
+                },
+                {
+                  "val": "xpath",
+                  "offset": 41
+                }
+              ],
+              "location": "BaseSteps.iClickAButton(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Search Product And Add To Chart Test",
+    "description": "",
+    "id": "search-product-and-add-to-chart-test",
+    "keyword": "Feature",
+    "uri": "search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  }
+]

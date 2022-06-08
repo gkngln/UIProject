@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="270.653996">
+<testcase classname="Images Test" name="Images Control" time="119.593352">
+<system-out><![CDATA[Given I navigate to webpage.................................................passed
+Then I should see url include 'https://www.trendyol.com/'...................passed
+When I closed 'AddPopupCloseBtn' popup form.................................passed
+And image link control......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Success Login Control" time="24.723731">
+<system-out><![CDATA[Given I navigate to webpage.................................................passed
+Then I should see url include 'https://www.trendyol.com/'...................passed
+When I closed 'AddPopupCloseBtn' popup form.................................passed
+And I click a 'firsLoginBtn' by 'xpath' web element.........................passed
+Then I should see url include '/giris?'.....................................passed
+When I fill 'txtMail' by 'id' textbox as 'testtrendyol@outlook.com'.........passed
+And I fill 'txtPassword' by 'id' textbox as 'Vardar!123'....................passed
+And I click a 'btnLogin' by 'xpath' web element.............................passed
+Then I should see 'myAccountInfo' by 'className' text is 'Hesabım'..........passed
+And I should see url include '/butik/liste'.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Test" name="Login With Invalid User Control" time="20.834938">
+<system-out><![CDATA[Given I navigate to webpage.................................................passed
+Then I should see url include 'https://www.trendyol.com/'...................passed
+When I closed 'AddPopupCloseBtn' popup form.................................passed
+And I click a 'firsLoginBtn' by 'xpath' web element.........................passed
+Then I should see url include '/giris?'.....................................passed
+When I fill 'txtMail' by 'id' textbox as 'testtrendyol@outlook.com'.........passed
+And I fill 'txtPassword' by 'id' textbox as 'Vardar!1234'...................passed
+And I click a 'btnLogin' by 'xpath' web element.............................passed
+Then I should see 'errorMessage' by 'xpath' text is 'E-posta adresiniz ve/veya şifreniz hatalı.'.passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Product And Add To Chart Test" name="Search GamingPC And Add To Chart Successfully" time="55.540247">
+<system-out><![CDATA[Given I navigate to webpage.................................................passed
+Then I should see url include 'https://www.trendyol.com/'...................passed
+When I closed 'AddPopupCloseBtn' popup form.................................passed
+And I click a 'firsLoginBtn' by 'xpath' web element.........................passed
+Then I should see url include '/giris?'.....................................passed
+When I fill 'txtMail' by 'id' textbox as 'testtrendyol@outlook.com'.........passed
+And I fill 'txtPassword' by 'id' textbox as 'Vardar!123'....................passed
+And I click a 'btnLogin' by 'xpath' web element.............................passed
+Then I should see 'myAccountInfo' by 'className' text is 'Hesabım'..........passed
+When I fill 'SearchTextArea' by 'className' textbox as 'Oyuncu Bilgisayarı'.passed
+And I click a 'SearchIcon' by 'xpath' web element...........................passed
+Then I should see url include 'sr?q=Oyuncu'.................................passed
+When I fill 'BandTypeSearchTextArea' by 'xpath' textbox as 'Monster'........passed
+And I click a 'BandTypeCheckBox' by 'xpath' web element.....................passed
+And I click a 'PriceDropDown' by 'xpath' web element........................passed
+And I fill 'PriceMinTextSearchArea' by 'xpath' textbox as '3000'............passed
+And I fill 'PriceMaxTextSearchArea' by 'xpath' textbox as '10000'...........passed
+And I click a 'PriceFilterSearchIcon' by 'xpath' web element................passed
+And I click a 'SelectProductItem' by 'xpath' web element....................passed
+And Switch to new tab.......................................................passed
+And I click a 'ProductAddToBasket' by 'xpath' web element...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Product And Add To Chart Test" name="Search shirt And Add To Favorite" time="49.961728">
+<system-out><![CDATA[Given I navigate to webpage.................................................passed
+Then I should see url include 'https://www.trendyol.com/'...................passed
+When I closed 'AddPopupCloseBtn' popup form.................................passed
+And I click a 'firsLoginBtn' by 'xpath' web element.........................passed
+Then I should see url include '/giris?'.....................................passed
+When I fill 'txtMail' by 'id' textbox as 'testtrendyol@outlook.com'.........passed
+And I fill 'txtPassword' by 'id' textbox as 'Vardar!123'....................passed
+And I click a 'btnLogin' by 'xpath' web element.............................passed
+Then I should see 'myAccountInfo' by 'className' text is 'Hesabım'..........passed
+When I fill 'SearchTextArea' by 'className' textbox as 'Gömlek'.............passed
+And I click a 'SearchIcon' by 'xpath' web element...........................passed
+Then I should see url include 'sr?q=G'......................................passed
+When Wait '4000' seconds....................................................passed
+When I click a 'Blank' by 'xpath' web element...............................passed
+And I click a 'ProductAddFavorite' by 'xpath' web element...................passed
+And I click a 'GoToFavorite' by 'xpath' web element.........................passed
+And I click a 'AddToBasketFromFavoriteButton' by 'xpath' web element........passed
+When I click a 'RemoveFromFavoriteButton' by 'xpath' web element............passed
+]]></system-out>
+</testcase>
+</testsuite>
